@@ -102,6 +102,11 @@ systemctl restart apache2
 
 GitHub Pages par ye project direct run nahi hoga, kyunki ye PHP aur MySQL SaaS app hai. GitHub par code push karen, phir hosting server ya cPanel par repository clone karen, Composer dependencies install karen, MySQL database import karen, `.env` configure karen, aur domain ka document root `public/` folder par set karen. Local testing ke liye `composer serve` chalakar `http://localhost:8080` open karen.
 
+
+## Hindi GitHub run guide
+
+Hindi me step-by-step guide ke liye `RUN_ON_GITHUB_HINDI.md` dekhein. Is guide me local machine, cPanel hosting, aur VPS/Apache deployment ke steps diye gaye hain.
+
 ## Useful commands
 
 ```bash
