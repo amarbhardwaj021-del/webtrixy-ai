@@ -1,0 +1,1 @@
+<?php declare(strict_types=1);namespace App\Core;final class Config{public function __construct(private array $data){} public function get(string $key,mixed $default=null):mixed{$v=$this->data;foreach(explode('.',$key) as $p){if(!is_array($v)||!array_key_exists($p,$v))return $default;$v=$v[$p];}return $v;}}
