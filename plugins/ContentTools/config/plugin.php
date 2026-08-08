@@ -1,0 +1,1 @@
+<?php declare(strict_types=1);return ['name'=>'Content Tools','slug'=>'content-tools','version'=>'1.0.0','routes'=>['/tools','/tool/run'],'capabilities'=>['analysis','generation','optimization','reporting']];
