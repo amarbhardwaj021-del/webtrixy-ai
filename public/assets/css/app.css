@@ -1,0 +1,1 @@
+:root{--brand:#5b5cf6}.hero{background:radial-gradient(circle at top left,rgba(91,92,246,.18),transparent 40%)}.navbar-brand{color:var(--brand)}.auth-card{max-width:460px}.card{border-radius:1rem}.btn-primary{background:var(--brand);border-color:var(--brand)}textarea{min-height:260px}footer a{color:inherit}
