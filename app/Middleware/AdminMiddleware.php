@@ -1,0 +1,1 @@
+<?php declare(strict_types=1);namespace App\Middleware;use App\Core\Database;final class AdminMiddleware{public function __construct(private Database $db){}public function handle():void{if(!in_array($_SESSION['role']??'',['super_admin','admin'],true)){http_response_code(403);exit('Forbidden');}}}

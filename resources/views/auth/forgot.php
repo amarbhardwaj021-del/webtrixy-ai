@@ -1,0 +1,1 @@
+<section class="py-5"><div class="container"><div class="mx-auto card p-4 auth-card"><h1>Forgot password</h1><input class="form-control mb-3" type="email" placeholder="Email"><button class="btn btn-primary">Email reset link</button></div></div></section>

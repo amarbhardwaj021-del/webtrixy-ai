@@ -1,0 +1,1 @@
+<?php declare(strict_types=1);namespace App\Core;final class App{public function __construct(private Config $config,private Database $db,private Router $router){}public function run():void{Security::boot($this->config);$this->router->dispatch();}}

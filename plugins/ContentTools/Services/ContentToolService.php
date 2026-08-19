@@ -1,0 +1,1 @@
+<?php declare(strict_types=1);namespace Plugins\ContentTools\Services;final class ContentToolService{public function normalize(string $content):string{return trim(strip_tags($content,'<p><h1><h2><h3><ul><ol><li><strong><em><a>'));}}
